@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/Learn/Java and Selenium courses/src/test/java/practice/Tests">
+        <groups>
+            <run>
+                <include name="Hashmap"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="practice.Tests.SubmitOrderTest">
+                <methods>
+                    <include name="submitOrder"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

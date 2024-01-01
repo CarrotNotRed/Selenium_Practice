@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite 1">
+    <test name="D:\Learn\Java and Selenium courses\src\test\java\practice\Tests">
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <include name="SubmitOrderTest"/>-->
+<!--            </run>-->
+<!--        </groups>-->
+        <classes>
+            <class name="SubmitOrderTest"/>
+        </classes>
+<!--        <classes>-->
+<!--            <class name="Test1">-->
+<!--                <methods>-->
+<!--                    <include name="Include.*"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="Test2">-->
+<!--                <methods>-->
+<!--                    <exclude name="TestCaseExclude"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+    </test>
+</suite>
